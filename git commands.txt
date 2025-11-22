@@ -1,0 +1,30 @@
+1) git clone https://github.com/alokkumar1986/14thAugustBatch.git
+
+git clone https://github.com/alokkumar1986/R-Programming-20th-Nov-2025-Aptech.git
+
+To copy a git branch to local system / computer
+
+2) git add -A 
+
+adding files to git stag
+
+3) git commit -m "message"
+
+commit files to git
+
+4) git push
+
+To push files to branch
+
+5) git pull
+
+To get all the branches in the git
+
+6) git checkout origin/<branch_name>
+
+To change the branch in local system
+
+7) git status 
+
+To check updates in the git
+
