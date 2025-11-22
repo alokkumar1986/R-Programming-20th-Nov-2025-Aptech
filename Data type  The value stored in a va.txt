@@ -1,0 +1,82 @@
+Data type : The value stored in a variable has some type. 
+
+That type can be known using class().
+
+example : 
+
+x <- 10
+
+print(class(x))
+
+# "numeric"
+
+There are following basic datatype :
+
+1) numeric
+2) integer
+3) logical
+4) character
+5) complex
+
+numeric datatype : Any number with decimal point, positive and negative sign is known as numeric datatype.
+
+x <- 10.5
+y <- 100
+z = -10
+
+class(x)
+class(y)
+class(z)
+
+integer datatype : Any number with a L as suffix is known as integer datatype.
+
+x <- 10
+class(x)
+
+x <- 10L
+class(x)
+
+complex datatype : Any number having an imaginary and a real part is known as complex datatype.
+
+x <- 10i
+y <- -1-i
+
+class(x)
+class(y)
+
+Methods used in numeric or integer datatype :
+
+min() : To give you a minimum number
+max() : To give you a maximum number
+sqrt() : To give you square root of a number
+floor() : To give you floor value of a decimal number
+ceiling() : To give you ceiling value of a decimal number
+
+
+logical datatype : There are two values used for logical or Boolean type
+
+TRUE
+FALSE
+
+x <- 2
+y <- 4
+x>y
+
+
+character datatype : 
+
+Any values those are enclosed with a single quote or double quote is known as character datatype or string datatype
+
+s <- 'Aptech'
+class(s)
+
+t <- "Aptech Learning"
+class(t)
+
+nchar() : To find the number of characters in a string.( Length of the string)
+
+
+
+
+
+

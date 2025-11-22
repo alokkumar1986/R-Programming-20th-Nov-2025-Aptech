@@ -44,7 +44,7 @@ singleline : #
 multiline : #
 
 
-variable : It is a name of memory location which we store some value.
+variable : It is a name of memory location in which we store some value.
 
 Rules : 
 
