@@ -1,0 +1,76 @@
+
+1)numeric
+2)integer
+3)complex
+4)character
+5)logical
+
+
+numeric : Any number with or without decimal point
+
+x <- 10
+y <- 55.2
+
+class(x) #numeric
+class(y) #numeric
+
+integer : any number with L as a suffix. Integer numbers are without decimal point and a L as a suffix
+
+x <- 10
+y <- 20L
+
+class(x) #numeric
+class(y) #integer
+
+complex : A number with a real part and an imaginary part 
+
+x <- 10+2i
+
+class(x) #complex
+
+
+methods used in number datatype :
+
+min()
+max()
+sqrt()
+floor()
+ceiling()
+
+logical : It has two values.  TRUE, FALSE
+
+x <- TRUE
+
+class(x)
+
+r <- (10 < 9)
+
+
+character a.k.a string : Anything enclosed with '' or "" 
+
+c <- "10"
+class(c) #character
+
+d <- 'A'
+class(d) #character
+
+
+Methods used in character :
+
+nchar() : To find length of the character/string
+grepl() : To find a string is part of another string or not
+cat()   : To print a string without escape caharacter
+paste() : To concatenate two or more string
+
+
+Escape character : This is to format string 
+
+\n : new line
+\t : horizontal tab
+\b : backspace 
+\r : carriage return
+\" : double quote
+\' : single quote
+
+
+

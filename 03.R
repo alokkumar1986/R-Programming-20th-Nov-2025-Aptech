@@ -1,41 +1,17 @@
-x <- 10
+a <- "Aptech\tLearing"
+a
+cat(a)
 
-print(class(x))
+b <- "Aptech\bLearning"
+b
+cat(b)
 
-y <- 10L
-
-print(class(y))
-
-z <- TRUE
-print(class(z))
-
-p <- 'Aptech'
-print(class(p))
+c <- "Aptech\rLearning"
+c
+cat(c)
 
 
-q <- 10+10i
-print(class(q))
-
-x <- 10.5
-y <- 100
-z = -10
-
-class(x)
-class(y)
-class(z)
-
-
-x <- 10
-class(x)
-
-x <- 10L
-class(x)
-
-
-x <- 10i
-class(x)
-
-
-y <- 1-1i
-class(y)
-
+x <- 'I am'
+y <- 'Aptech'
+z <- 'Learning'
+paste(x, y, z)

@@ -1,0 +1,53 @@
+Vector : 
+
+v <- c(1, 2, 3)
+v <- c(1.2, 1.4, 1.6)
+v <- c("A", "B", "c")
+v <- c(TRUE, FALSE, FALSE, TRUE)
+v <- 1:12
+v <- seq(from=0, to=12, by=2)  
+
+How to access the vector :
+
+using index : (index starts from 1) 
+
+v<- c(1, 2, 3)
+
+v[1] : element at index 1
+
+v[1:3]  : elements from index 1 to 3
+
+v[c(1,3)] : elements at index 1 & 3
+
+v[-1] : all elements expect element at index 1 
+
+methods :
+
+length() : gives the no. of element
+sort() : to sort the elements of a vector
+rep() :
+
+v <- rep(c(1, 2, 3), each=3)
+v  
+
+v1 <- rep(c(1, 2, 3), times=3)
+v1
+
+v2 <- rep(c(1, 2, 3), times=c(2, 3, 5))
+v2 
+
+seq() : seq(from=0, to=100, by=5)
+
+v <- seq(from=100, to=0, by =-5)
+v
+
+
+
+
+
+
+
+
+List : 
+
+

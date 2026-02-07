@@ -1,0 +1,227 @@
+function : 
+
+A function is a block of code which gets executed when we call it.
+
+syntax :
+
+#function definition
+
+my_function <- function(){
+ statement1 
+ statement2
+}
+
+#function definition in python
+
+def my_function():
+ statement1 
+ statement2
+ 
+my_function() #function call
+
+Here my_function is a function name. It is user defined name.
+
+function() is the keyword for defining a function.
+
+Example :
+
+helloFun <- function(){
+  print('Hello, there!')
+}
+
+helloFun()
+
+1) when we have function definition but no function call, we will get no output.
+2) when we have function call without function definition, we will get error.
+3) function name can be in smallcase, camelCase, snakecase, sentencecase
+
+hellofun
+helloFun
+hello_fun
+HelloFun
+4) function definition must be at the top of the function call.
+5) A function may or may not return.
+
+The above function is not returning anything.
+
+helloFun <- function(){
+  return ("Hello, there!")
+}
+
+x <- helloFun()
+print(x)
+
+* A function always return a single value. when a function is set to return, a return statement must be there.
+
+Example :
+
+Find greater of three numbers;
+
+x <- 10
+y <- 15
+z <- 5
+
+findGreater <- function(p, q, r){
+  if (p>q & p>r){
+    return p
+  }else if (q>r){
+    return q
+  }else{
+    return r
+  }
+}
+
+print(findGreater(x, y, z))
+
+
+here in the function call and function definition, we are passing variables or values. 
+
+The variables passed in function call are called parameters
+
+The variables passed in function definition are called arguments
+
+In a function, the no of arguments must be same no of parameters
+
+Example :
+
+helloFun <- function(name){
+   print(paste("Hello", name))
+}
+
+helloFun("Sachin")
+
+helloFun() #error
+
+helloFun("Sachin", "Sehwag") #error
+
+Example : Write a function  to find smallest of three numbers.
+Example : Swap value of two numbers
+
+swapVal <- function(p, q){
+   p = p+q-(q=p)
+   print(p)
+   print(q)
+}
+x <- 10
+y <- 5 
+
+swapVal(x, y)
+
+# Default Parameter :
+
+
+Example :
+
+helloFun <- function(name){
+   print(paste("Hello", name))
+}
+
+helloFun("Sachin")
+
+helloFun() 
+
+In the above, we will error 'with no default value for "name"'
+
+Lets change it to add default to the parameter
+
+#######
+helloFun <- function(name = 'Shyam'){
+   print(paste("Hello", name))
+}
+
+helloFun("Sachin")
+
+helloFun() 
+
+Now, the program will execute with no error. But we will two different output
+
+The value passed in argument will be replaced to default value, if no value passed in function call the default value will be considered.
+
+This default value assigned to a parameter is called default parameter.
+
+The default parameter must be assigned at the right to left.
+
+Example :
+
+helloFun <- function(name, name1 = 'Shyam'){
+   print(paste("Hello", name, name1))
+}
+
+helloFun("Sachin", "Sehwag")
+
+helloFun("Sachin")
+
+Example : 
+
+helloFun <- function(name = 'Shyam', name1){
+   print(paste("Hello", name, name1))
+}
+
+helloFun("Sachin", "Sehwag")
+
+helloFun("Sachin")
+
+
+Nested Function :
+#===================================================
+1) nested function call
+
+my_fun <- function(p, q){
+  return p+q
+}
+
+
+my_fun(my_fun(my_fun(1,2),3),4)
+
+2) outer_fun <- function(x){
+
+   inner_fun <- function(y){
+     return (x+y)
+  }
+
+  return (inner_fun)
+}
+
+outer <- outer_fun(2)
+
+inner <- outer(3)
+
+3) function recursion : When a function calls itself within its definition, it is called function recursion.
+
+
+my_fun <- function(x){
+  if (x >0){
+    print(x)
+    my_fun(x-1)
+  }
+}
+
+my_fun(100)
+
+* Function recursion is same as a loop.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

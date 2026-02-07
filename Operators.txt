@@ -1,1 +1,72 @@
-Operators :
+Operators : 
+
+
+1) Arithmetic 
+2) Assignment
+3) Comparison
+4) Logical
+5) Miscaleneous
+
+Arithmetic :
++ : Addition
+- : Substraction
+* : Multiplication
+/ : Division
+^ : Exponent
+%% : Modulus
+%/% : Integer Division
+
+Assignment :
+
+=
+->
+->>
+x = 2
+x <- 2
+2 -> x
+x <<-2
+2 ->> x
+
+Comparison :
+
+>
+<
+>=
+<=
+==
+!=
+
+x <- 10
+y <- 2
+
+x>y
+x<y
+x>=y
+x<=y
+x==y
+x!=y
+
+
+Logical : 
+
+&&   T && T = T
+     T && F = F
+     F && F = F
+||   
+!
+&
+|
+
+x <- 10
+y <- 0
+x&&y
+
+Miscalneous : 
+
+%in% =  p => c(1, 2, 3) / 1:4
+       3 %in% p 
+
+    = memebership operator
+:   = 1:10   range operator
+
+%*% = matrix multiplication

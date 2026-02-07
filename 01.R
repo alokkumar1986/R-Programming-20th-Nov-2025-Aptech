@@ -1,14 +1,20 @@
-5+5
-x <- 5
-y <- 10
-x+y
+x <- 10
+y <- 20L
+
+class(x)
+class(y)
+
+p <- 10+2i
+class(p)
+
+q <- TRUE
+class(q)
 
 
-x1 <- 10
-y1 <- 20
+(10 < 9)
 
-print(x1+y1)
+c <- "10"
+class(c) #character
 
-paste("Hello", "World")
-
-
+d <- 'A'
+class(d) #character

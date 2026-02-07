@@ -1,0 +1,58 @@
+Data Structure in R :
+
+How do we organise our data. 
+
+In R there are several ways to organize data. 
+
+1) Vector
+2) List
+3) Matrix
+4) Array
+5) Dataframe
+
+Vector : It stores multiple of same type of data.
+
+v <- c("Apple", "Banana", "Orange")
+v1 <- c(1, 2, 4)
+v2 <- c(1.2, 1.4, 1.6, 1.8)
+
+List : It store multiple of different types of data
+
+l <- list(1, 1.2, "Apple")
+
+matrix : It stores multiple data in rows and columns in 2-D
+
+v <- 1:24
+m <- matrix(v, nrow=2, ncol=12)
+m
+
+array : It is same as matrix but more dimensional
+
+v <- 1:24
+a <- array(v, dim=(2, 3, 4))
+
+dataframe : It stores data like a spredsheet.
+
+d <- data.frame(
+"names" = c("A", "B", "C"),
+"ages" = c(20, 23, 22),
+"rollno" = c("12RA001", "12RA002", "12RA003")
+)
+
+d
+
+ds name         ds type               usecase
+
+vector		same datatype	      for a simple same type
+
+list		different datatype    for more complex different type data	              					
+
+matrix          2-D (different datatypes)  For use of 2-D datastr
+
+Array           3-D & more            For use of 3-D & more datastr			      
+
+
+dataframe       spreadsheet           for more complex datastr					      
+
+
+

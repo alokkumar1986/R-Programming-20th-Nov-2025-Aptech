@@ -1,0 +1,203 @@
+Control Flow Statement :
+
+1) Conditional
+2) Transfer
+3) Iterative
+
+Conditional : The flow of the programming execution can be handled based on a condition.
+
+1) if
+2) if else
+3) if else if
+
+if statement :
+
+if (condition){
+  print('Hi')
+}
+
+if condition true, the print() will execute else not.
+
+example :
+
+x <- 10
+y <- 10.0
+
+if (x==y){
+ print('X is equal to Y')
+}
+
+if else :
+
+if (condition){
+  statement
+}else{
+  statement1
+}
+
+if condition is true, statement will execute else statement1 will execute.
+
+Example :
+
+x <- 10
+y <- 13
+
+if (x>y){
+ print('x is greater than y')
+}else{
+ print('x is smaller than y')
+}
+
+if else if :
+
+if (condition){
+ statement
+}else if(condition1){
+ statement1
+}else{
+ statement2
+}
+
+
+if condition is true, then only statement will be executed
+
+if condition is false, then again it will check condition1.
+if condition1 is true, then only statement1 will execute
+
+if condition, condition1 both are false, then only statement2
+execute
+
+Example :
+
+x <- 10
+y <- 12
+z <- 5
+
+if (x>y & x>z){
+ print('X is greater')
+}else if (y>z){
+ print('Y is greater')
+}else{
+ print('Z is greater')
+}
+
+Nested if :
+
+if (condition){
+  if(condition1){
+    statement
+  }else{
+    statement1
+  }
+}else{
+ statement2
+}
+
+Example :
+
+x <- c(1, 2, 3)
+y <- c(4, 5, 6)
+
+if (5 %in% y){
+   if (5 %in% x){
+     print('5 is in x and y')
+   }else{
+     print('5 is in y only')
+   }
+}else{
+  print('5 is neither in x nor in y')
+}
+
+*)
+if (con){
+  statement
+}else{
+  if(con1){
+   statemen1
+  }else{ 
+   statement2
+  }
+}
+
+*) if(cond){
+     if(cond1){
+      if(cond2){
+        statement
+      }else{
+        statemen1
+      }
+     }else{
+      statement2
+     }
+    }else{
+    statement3
+   }
+
+
+Iterative :
+
+for & while loop are called iterative statement
+
+for(i in 1:10){
+   print(i)
+}
+
+i <- 1  #initialisation
+while(i<=10){ #condition
+ print(i)
+ i=i+1 #increment/decrement
+}
+
+Example : 
+
+x <- 'I am Sachin. I played for India. I retired in the year 2018.'
+
+y <- c(strsplit(x, split=" "))
+
+print(y)
+
+Example : Letter count in a word
+Example : Find sum of numbers in a list
+Example : Find count of a string in another string
+
+
+Transfer : 
+
+1) break
+2) next
+
+break : When control reads a break statement inside a loop, the control move out of the loop.
+
+next : when control reads a next statement inside a loop, the control skips the current iteration and execute next iteration. 
+ 
+
+example :
+
+for( i in 1: 100){
+   print(i)
+   if(i==33){
+     break
+   }
+}
+
+
+for( i in 1: 100){
+   if(i==33){
+     next
+   }
+   print(i)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
