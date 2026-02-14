@@ -1,0 +1,103 @@
+data.frame : 
+
+Here we store values like a spreadsheet
+
+We use data.frame() to create dataframe
+
+
+df <- data.frame(
+
+  "name" <- c("A", "B", "C"),
+  "age" <- c(22, 20, 24),
+  "mark" <- c(100, 98, 89)
+
+)
+
+print(df)
+
+summary() : This will present the summary of the dataframe
+
+How to access the elements / values :
+
+df[1]
+
+df['name']
+
+df$name
+
+df[1, 1]
+
+df[1, 3]
+
+df[c(1), ]
+
+df[c(3), ]
+
+df[ ,c(3)]
+
+
+How to add a row :
+
+rbind()
+
+df <- data.frame(
+  "name" <- c("A", "B", "C"),
+  "age" <- c(22, 20, 24),
+  "mark" <- c(100, 98, 89)
+)
+
+newrow <- c("D", 23, 97)
+
+df1 = rbind(df, newrow)
+
+df1
+#======================================
+
+df <- data.frame(
+  "name" <- c("A", "B", "C"),
+  "age" <- c(22, 20, 24),
+  "mark" <- c(100, 98, 89)
+)
+
+df2 <- data.frame(
+  "name" = c("E"),
+  "age" = c(24),
+  "mark" = c(87)
+)
+
+df3 = rbind(df, df2)
+df3
+
+cbind() : 
+
+df <- data.frame(
+  "name" <- c("A", "B", "C"),
+  "age" <- c(22, 20, 24),
+  "mark" <- c(100, 98, 89)
+)
+
+df4 <- data.frame(
+  "course" = c("Python", "R", "Power"),
+  )
+
+df5 = cbind(df, df4)
+df5
+
+
+How to remove a row/ a col:
+
+df <- data.frame(
+  "name" <- c("A", "B", "C"),
+  "age" <- c(22, 20, 24),
+  "mark" <- c(100, 98, 89)
+)
+
+df[c(-1), ]
+
+df[, c(-2)]
+
+nrow()
+ncol()
+length()
+
+

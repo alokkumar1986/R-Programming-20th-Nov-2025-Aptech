@@ -1,0 +1,63 @@
+R plotting : To plot graphs
+
+line graph
+scatter plot
+bar graph
+pie graph
+
+histogram
+boxplot
+
+Here also we use plot() to draw graphs
+
+It also takes two vectors for x-axis and y-axis
+
+Example :
+
+plot(10,5)   : The point in the graph are called as marker.
+
+
+plot(c(1,3), c(2, 4))  : To draw a line we need at least two markers
+
+
+plot(c(1, 2, 3, 4, 5), c(3, 5, 2, 7, 3)) : Multiple markers
+
+
+plot(1:10)
+
+
+labels : 
+
+xlab : For adding x-axis label
+ylab : for adding y-axis label
+
+markers :
+
+cex : For adding marker size
+pch : For marker shape
+col : For marker color
+
+title : 
+
+main : For adding title of the graph
+
+
+line Graph : type="l"
+
+lwd : line width
+lty : line style
+
+
+barplot()
+
+barplot(height=c(), names.arg=c(), col=c(), horiz=TRUE )
+
+pieplot :
+
+pie(c(20, 30, 40, 50))
+
+
+
+
+
+
