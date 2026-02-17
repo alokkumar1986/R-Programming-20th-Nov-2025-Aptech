@@ -57,6 +57,51 @@ pieplot :
 pie(c(20, 30, 40, 50))
 
 
+histogram :
++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+This graph is the frequency distribution of values. 
+
+hist()
+
+v -> c(5, 7, 8, 5, 6, 7, 8, 9, 10, 6, 7, 8, 9, 10, 12)
+
+hist(v, main="",
+     xlab="",
+     ylab = "",
+     xlim= c(min, max),
+     ylim= c(min, max),
+     col = "red",
+     border = "blue",
+     breaks = number
+     )
+
+main : title of the graph
+xlab, ylab : Label for x-axis and y-axis
+xlimm ylim : min and max values for x-axis and y-axis
+col : color of the bars
+border : border of the bars
+breaks : break points (a suggestion of number of bins)
+
+
+boxplot : 
+
+boxplot(x ~ y, data=p, main="", xlab="", ylab="", col=c()) 
+
+here p must be dataset i.e a dataframe
+x , y are two columns in it
+
+
+mtcars : default dataset 
+
+dim()
+summary()
+min()
+max()
+mean()
+median()
+mode()
+
+
 
 
 
