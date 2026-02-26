@@ -1,0 +1,37 @@
+Exception handling in R :
+
+Exception : This is abnormal condition occur while running a program.
+
+In that case program halt in between in stead if giving a proper output, it throws error.
+
+To handle such condition, we use exception handling.
+
+
+Mostly we use following
+
+tryCatch({
+ expr
+},
+error=function(e){
+ handle error
+},
+warning=function(w){
+ handle warning
+},
+finally={
+ always execute
+}
+)
+
+
+
+expr : The code where we suppose to get an exception
+error : If there is any error or exception
+warning : If there is any warning
+finally : Always executes
+
+
+
+stop() : When there is error
+warning() : When there is warning
+message() : To give a proper message 

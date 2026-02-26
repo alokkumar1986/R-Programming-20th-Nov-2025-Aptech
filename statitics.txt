@@ -1,0 +1,39 @@
+max : max()
+min : min()
+mean : mean()
+mode : mode()
+median : median()
+percentile : quantile()
+standard variation : sd()
+
+
+
+Percentile : It is always smaller to percentage. 
+
+BPUT Percentile = Percentage
+
+VSSUT Percentile  = 9 - 0.75 = 8.25*100 = 82.5
+
+
+quantile() = 25, 50 75 100
+
+75 percentile = C(75)  =
+
+
+standard deviation = square root( sumation (x-m)**2/n )
+
+
+ x <- c(10, 20, 30, 40, 50)
+
+  m = 30
+  10-30 = 400
+  20-30 = 100
+  30-30 = 0
+  40-30 = 100
+  50-30 = 400
+  =============
+  summation = 1000
+              1000/4 = 250
+  squareroot(250)
+
+

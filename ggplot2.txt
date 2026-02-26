@@ -1,0 +1,38 @@
+ggplot2 : 
+
+It is a package for data visualization.
+
+1) To use this package, we must install it
+
+install.packages('ggplot2')   //tidyverse
+
+2) Use the package 
+
+library('ggplot2')  //tidyverse
+
+3) Core logic 
+
+ggplot(data=<DataFrame>)+
+aes(x=<X>, y=<Y>)+
+geom_<Type>()+
+labs(
+title=<Title>,
+subtitle=<Subtitle>,
+x=<X-axis>,
+y=<Y-axis>
+)
+
+<Dataframe> : it must be a dataframe .e.g: mtcars
+<X> :  column name of the dataset
+<Y> :  column name of the dataset
+<Type> : The type of the graph e.g : point, bar, histogram, boxplot etc
+
+
+Example : 
+
+ggplot(data=mtcars aes(x=wt, y=mpg))+ goem_point()+
+labs(title="MTCARS wt vs mpg", x= "Weight", y= "MPG")
+
+
+
+
