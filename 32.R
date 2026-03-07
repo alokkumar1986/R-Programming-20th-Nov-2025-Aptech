@@ -6,6 +6,8 @@ advertising_data <- data.frame(
   sales = c(150, 180, 210, 245, 270, 305, 330, 365, 390, 420) + rnorm(10, 0, 15)
 )
 
+advertising_data
+
 # 2. Visualize the relationship
 plot(advertising_data$tv_budget, advertising_data$sales,
      main = "TV Budget vs Sales",
